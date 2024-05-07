@@ -56,6 +56,7 @@ Publish the website in the given URL.
       <button onclick="clearDisplay()">C</button>
       <button onclick="calculate()">=</button>
       <button onclick="appendToDisplay('+')">+</button>
+      <input type="button" value="%" onclick="addToDisplay('%')">
     </div>
   </div>
   <script src="index.js"></script>
@@ -119,7 +120,7 @@ function appendToDisplay(value) {
 
 ## OUTPUT:
 
-![alt text](<Screenshot 2024-04-25 142028.png>)
+![alt text](<Screenshot 2024-05-07 141931.png>)
 
 ## RESULT:
 The program for designing a standard calculator using HTML and CSS is executed successfully.
